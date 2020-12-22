@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B77939A7D01D3398B48555A8 /* Pods_GiftCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6700ECF5EC960903BDDB9F /* Pods_GiftCard.framework */; };
+		E3D7C2AE258C620500035613 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C2AD258C620500035613 /* AppDelegate.m */; };
+		E3D7C2B1258C620500035613 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C2B0258C620500035613 /* SceneDelegate.m */; };
+		E3D7C2B7258C620500035613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D7C2B5258C620500035613 /* Main.storyboard */; };
+		E3D7C2BA258C620500035613 /* GiftCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C2B8258C620500035613 /* GiftCard.xcdatamodeld */; };
+		E3D7C2BC258C620700035613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D7C2BB258C620700035613 /* Assets.xcassets */; };
+		E3D7C2BF258C620700035613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D7C2BD258C620700035613 /* LaunchScreen.storyboard */; };
+		E3D7C2C2258C620700035613 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C2C1258C620700035613 /* main.m */; };
+		E3D7C2CC258C63F800035613 /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C2CB258C63F800035613 /* KxMenu.m */; };
+		E3D7C2D0258C640900035613 /* WMDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C2CF258C640900035613 /* WMDragView.m */; };
+		E3D7C2DE258C645300035613 /* OpensourceSDKVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3D7C2D2258C645300035613 /* OpensourceSDKVC.xib */; };
+		E3D7C2DF258C645300035613 /* OpensourceSDKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C2D3258C645300035613 /* OpensourceSDKVC.m */; };
+		E3D7C2E0258C645300035613 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C2D4258C645300035613 /* ShareViewController.m */; };
+		E3D7C2E1258C645300035613 /* opensourceSDKdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3D7C2D5258C645300035613 /* opensourceSDKdata.plist */; };
+		E3D7C2E2258C645300035613 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C2D6258C645300035613 /* HomeViewController.m */; };
+		E3D7C2E3258C645300035613 /* SViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C2DA258C645300035613 /* SViewController.m */; };
+		E3D7C2E4258C645300035613 /* SetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C2DB258C645300035613 /* SetingViewController.m */; };
+		E3D7C2EA258C646600035613 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C2E6258C646500035613 /* YYFPSLabel.m */; };
+		E3D7C2EB258C646600035613 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C2E7258C646500035613 /* YYWeakProxy.m */; };
+		E3D7C2EE258C647300035613 /* giftList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3D7C2ED258C647300035613 /* giftList.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D45DFFB1F7CF95AF5D32F2E /* Pods-GiftCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftCard.debug.xcconfig"; path = "Target Support Files/Pods-GiftCard/Pods-GiftCard.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6AD4291A10D55007DB39AE /* Pods-GiftCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftCard.release.xcconfig"; path = "Target Support Files/Pods-GiftCard/Pods-GiftCard.release.xcconfig"; sourceTree = "<group>"; };
+		BC6700ECF5EC960903BDDB9F /* Pods_GiftCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiftCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3566966258EF5D700CF433E /* GiftCard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GiftCard.entitlements; sourceTree = "<group>"; };
+		E3D7C2A9258C620500035613 /* GiftCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D7C2AC258C620500035613 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E3D7C2AD258C620500035613 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E3D7C2AF258C620500035613 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E3D7C2B0258C620500035613 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E3D7C2B6258C620500035613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3D7C2B9258C620500035613 /* GiftCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GiftCard.xcdatamodel; sourceTree = "<group>"; };
+		E3D7C2BB258C620700035613 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3D7C2BE258C620700035613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3D7C2C0258C620700035613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3D7C2C1258C620700035613 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3D7C2CA258C63F800035613 /* KxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMenu.h; sourceTree = "<group>"; };
+		E3D7C2CB258C63F800035613 /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
+		E3D7C2CE258C640900035613 /* WMDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDragView.h; sourceTree = "<group>"; };
+		E3D7C2CF258C640900035613 /* WMDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDragView.m; sourceTree = "<group>"; };
+		E3D7C2D2258C645300035613 /* OpensourceSDKVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpensourceSDKVC.xib; sourceTree = "<group>"; };
+		E3D7C2D3258C645300035613 /* OpensourceSDKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpensourceSDKVC.m; sourceTree = "<group>"; };
+		E3D7C2D4258C645300035613 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		E3D7C2D5258C645300035613 /* opensourceSDKdata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = opensourceSDKdata.plist; sourceTree = "<group>"; };
+		E3D7C2D6258C645300035613 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		E3D7C2D7258C645300035613 /* SetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetingViewController.h; sourceTree = "<group>"; };
+		E3D7C2D8258C645300035613 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		E3D7C2D9258C645300035613 /* SViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SViewController.h; sourceTree = "<group>"; };
+		E3D7C2DA258C645300035613 /* SViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SViewController.m; sourceTree = "<group>"; };
+		E3D7C2DB258C645300035613 /* SetingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetingViewController.m; sourceTree = "<group>"; };
+		E3D7C2DC258C645300035613 /* OpensourceSDKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpensourceSDKVC.h; sourceTree = "<group>"; };
+		E3D7C2DD258C645300035613 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E3D7C2E6258C646500035613 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		E3D7C2E7258C646500035613 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		E3D7C2E8258C646600035613 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		E3D7C2E9258C646600035613 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		E3D7C2ED258C647300035613 /* giftList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = giftList.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3D7C2A6258C620500035613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77939A7D01D3398B48555A8 /* Pods_GiftCard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27816DF66390A14833EF09D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D45DFFB1F7CF95AF5D32F2E /* Pods-GiftCard.debug.xcconfig */,
+				BA6AD4291A10D55007DB39AE /* Pods-GiftCard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3D7C2A0258C620500035613 = {
+			isa = PBXGroup;
+			children = (
+				E3D7C2AB258C620500035613 /* GiftCard */,
+				E3D7C2AA258C620500035613 /* Products */,
+				27816DF66390A14833EF09D3 /* Pods */,
+				E9AE1D83873C4DC4EF2AF823 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E3D7C2AA258C620500035613 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7C2A9258C620500035613 /* GiftCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3D7C2AB258C620500035613 /* GiftCard */ = {
+			isa = PBXGroup;
+			children = (
+				E3566966258EF5D700CF433E /* GiftCard.entitlements */,
+				E3D7C2AC258C620500035613 /* AppDelegate.h */,
+				E3D7C2AD258C620500035613 /* AppDelegate.m */,
+				E3D7C2AF258C620500035613 /* SceneDelegate.h */,
+				E3D7C2B0258C620500035613 /* SceneDelegate.m */,
+				E3D7C2ED258C647300035613 /* giftList.plist */,
+				E3D7C2CA258C63F800035613 /* KxMenu.h */,
+				E3D7C2CB258C63F800035613 /* KxMenu.m */,
+				E3D7C2E8258C646600035613 /* YYFPSLabel.h */,
+				E3D7C2E6258C646500035613 /* YYFPSLabel.m */,
+				E3D7C2E9258C646600035613 /* YYWeakProxy.h */,
+				E3D7C2E7258C646500035613 /* YYWeakProxy.m */,
+				E3D7C2DD258C645300035613 /* HomeViewController.h */,
+				E3D7C2D6258C645300035613 /* HomeViewController.m */,
+				E3D7C2D5258C645300035613 /* opensourceSDKdata.plist */,
+				E3D7C2DC258C645300035613 /* OpensourceSDKVC.h */,
+				E3D7C2D3258C645300035613 /* OpensourceSDKVC.m */,
+				E3D7C2D2258C645300035613 /* OpensourceSDKVC.xib */,
+				E3D7C2D7258C645300035613 /* SetingViewController.h */,
+				E3D7C2DB258C645300035613 /* SetingViewController.m */,
+				E3D7C2D8258C645300035613 /* ShareViewController.h */,
+				E3D7C2D4258C645300035613 /* ShareViewController.m */,
+				E3D7C2D9258C645300035613 /* SViewController.h */,
+				E3D7C2DA258C645300035613 /* SViewController.m */,
+				E3D7C2CE258C640900035613 /* WMDragView.h */,
+				E3D7C2CF258C640900035613 /* WMDragView.m */,
+				E3D7C2B5258C620500035613 /* Main.storyboard */,
+				E3D7C2BB258C620700035613 /* Assets.xcassets */,
+				E3D7C2BD258C620700035613 /* LaunchScreen.storyboard */,
+				E3D7C2C0258C620700035613 /* Info.plist */,
+				E3D7C2C1258C620700035613 /* main.m */,
+				E3D7C2B8258C620500035613 /* GiftCard.xcdatamodeld */,
+			);
+			path = GiftCard;
+			sourceTree = "<group>";
+		};
+		E9AE1D83873C4DC4EF2AF823 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC6700ECF5EC960903BDDB9F /* Pods_GiftCard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3D7C2A8258C620500035613 /* GiftCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3D7C2C5258C620700035613 /* Build configuration list for PBXNativeTarget "GiftCard" */;
+			buildPhases = (
+				BAF45F48FE3DDC9FA17DBB09 /* [CP] Check Pods Manifest.lock */,
+				E3D7C2A5258C620500035613 /* Sources */,
+				E3D7C2A6258C620500035613 /* Frameworks */,
+				E3D7C2A7258C620500035613 /* Resources */,
+				0B128DDA21D7A5DF613286DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GiftCard;
+			productName = GiftCard;
+			productReference = E3D7C2A9258C620500035613 /* GiftCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3D7C2A1258C620500035613 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E3D7C2A8258C620500035613 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = E3D7C2A4258C620500035613 /* Build configuration list for PBXProject "GiftCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3D7C2A0258C620500035613;
+			productRefGroup = E3D7C2AA258C620500035613 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3D7C2A8258C620500035613 /* GiftCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3D7C2A7258C620500035613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D7C2BF258C620700035613 /* LaunchScreen.storyboard in Resources */,
+				E3D7C2BC258C620700035613 /* Assets.xcassets in Resources */,
+				E3D7C2E1258C645300035613 /* opensourceSDKdata.plist in Resources */,
+				E3D7C2DE258C645300035613 /* OpensourceSDKVC.xib in Resources */,
+				E3D7C2EE258C647300035613 /* giftList.plist in Resources */,
+				E3D7C2B7258C620500035613 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B128DDA21D7A5DF613286DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiftCard/Pods-GiftCard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiftCard/Pods-GiftCard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GiftCard/Pods-GiftCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAF45F48FE3DDC9FA17DBB09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiftCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3D7C2A5258C620500035613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D7C2E3258C645300035613 /* SViewController.m in Sources */,
+				E3D7C2C2258C620700035613 /* main.m in Sources */,
+				E3D7C2E4258C645300035613 /* SetingViewController.m in Sources */,
+				E3D7C2BA258C620500035613 /* GiftCard.xcdatamodeld in Sources */,
+				E3D7C2E0258C645300035613 /* ShareViewController.m in Sources */,
+				E3D7C2CC258C63F800035613 /* KxMenu.m in Sources */,
+				E3D7C2EA258C646600035613 /* YYFPSLabel.m in Sources */,
+				E3D7C2EB258C646600035613 /* YYWeakProxy.m in Sources */,
+				E3D7C2DF258C645300035613 /* OpensourceSDKVC.m in Sources */,
+				E3D7C2E2258C645300035613 /* HomeViewController.m in Sources */,
+				E3D7C2AE258C620500035613 /* AppDelegate.m in Sources */,
+				E3D7C2D0258C640900035613 /* WMDragView.m in Sources */,
+				E3D7C2B1258C620500035613 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3D7C2B5258C620500035613 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3D7C2B6258C620500035613 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3D7C2BD258C620700035613 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3D7C2BE258C620700035613 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3D7C2C3258C620700035613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E3D7C2C4258C620700035613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3D7C2C6258C620700035613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D45DFFB1F7CF95AF5D32F2E /* Pods-GiftCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GiftCard/GiftCard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = VC2K439GRZ;
+				INFOPLIST_FILE = GiftCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kok.giftcard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E3D7C2C7258C620700035613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6AD4291A10D55007DB39AE /* Pods-GiftCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GiftCard/GiftCard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = VC2K439GRZ;
+				INFOPLIST_FILE = GiftCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kok.giftcard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3D7C2A4258C620500035613 /* Build configuration list for PBXProject "GiftCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D7C2C3258C620700035613 /* Debug */,
+				E3D7C2C4258C620700035613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3D7C2C5258C620700035613 /* Build configuration list for PBXNativeTarget "GiftCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D7C2C6258C620700035613 /* Debug */,
+				E3D7C2C7258C620700035613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E3D7C2B8258C620500035613 /* GiftCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E3D7C2B9258C620500035613 /* GiftCard.xcdatamodel */,
+			);
+			currentVersion = E3D7C2B9258C620500035613 /* GiftCard.xcdatamodel */;
+			path = GiftCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E3D7C2A1258C620500035613 /* Project object */;
+}

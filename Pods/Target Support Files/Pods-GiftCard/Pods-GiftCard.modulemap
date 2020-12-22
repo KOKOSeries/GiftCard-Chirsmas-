@@ -1,0 +1,6 @@
+framework module Pods_GiftCard {
+  umbrella header "Pods-GiftCard-umbrella.h"
+
+  export *
+  module * { export * }
+}
