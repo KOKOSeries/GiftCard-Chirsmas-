@@ -89,6 +89,21 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E3C5DADB25926784003E018F /* ThrityPart */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7C2CA258C63F800035613 /* KxMenu.h */,
+				E3D7C2CB258C63F800035613 /* KxMenu.m */,
+				E3D7C2CE258C640900035613 /* WMDragView.h */,
+				E3D7C2CF258C640900035613 /* WMDragView.m */,
+				E3D7C2E8258C646600035613 /* YYFPSLabel.h */,
+				E3D7C2E6258C646500035613 /* YYFPSLabel.m */,
+				E3D7C2E9258C646600035613 /* YYWeakProxy.h */,
+				E3D7C2E7258C646500035613 /* YYWeakProxy.m */,
+			);
+			path = ThrityPart;
+			sourceTree = "<group>";
+		};
 		E3D7C2A0258C620500035613 = {
 			isa = PBXGroup;
 			children = (
@@ -115,13 +130,8 @@
 				E3D7C2AD258C620500035613 /* AppDelegate.m */,
 				E3D7C2AF258C620500035613 /* SceneDelegate.h */,
 				E3D7C2B0258C620500035613 /* SceneDelegate.m */,
+				E3C5DADB25926784003E018F /* ThrityPart */,
 				E3D7C2ED258C647300035613 /* giftList.plist */,
-				E3D7C2CA258C63F800035613 /* KxMenu.h */,
-				E3D7C2CB258C63F800035613 /* KxMenu.m */,
-				E3D7C2E8258C646600035613 /* YYFPSLabel.h */,
-				E3D7C2E6258C646500035613 /* YYFPSLabel.m */,
-				E3D7C2E9258C646600035613 /* YYWeakProxy.h */,
-				E3D7C2E7258C646500035613 /* YYWeakProxy.m */,
 				E3D7C2DD258C645300035613 /* HomeViewController.h */,
 				E3D7C2D6258C645300035613 /* HomeViewController.m */,
 				E3D7C2D5258C645300035613 /* opensourceSDKdata.plist */,
@@ -134,8 +144,6 @@
 				E3D7C2D4258C645300035613 /* ShareViewController.m */,
 				E3D7C2D9258C645300035613 /* SViewController.h */,
 				E3D7C2DA258C645300035613 /* SViewController.m */,
-				E3D7C2CE258C640900035613 /* WMDragView.h */,
-				E3D7C2CF258C640900035613 /* WMDragView.m */,
 				E3D7C2B5258C620500035613 /* Main.storyboard */,
 				E3D7C2BB258C620700035613 /* Assets.xcassets */,
 				E3D7C2BD258C620700035613 /* LaunchScreen.storyboard */,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OXl-AE-fMI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9ZD-8T-Lcx">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -671,7 +671,7 @@ Article 5: All gift cards in this app are protected by an open source agreement,
             <objects>
                 <viewController id="wKN-in-r6L" customClass="SetingViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rOm-dJ-Z3g">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="idG-N0-qeH">
@@ -895,6 +895,76 @@ Article 5: All gift cards in this app are protected by an open source agreement,
             </objects>
             <point key="canvasLocation" x="-426" y="-214"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="9WE-xH-2Cf">
+            <objects>
+                <viewController id="vmu-Ey-klG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XeQ-7f-1of">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gift Card" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oic-9n-jlh">
+                                <rect key="frame" x="10" y="74" width="101.5" height="29.5"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="27"/>
+                                <color key="textColor" name="barTintColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0K-xq-71e">
+                                <rect key="frame" x="13" y="117" width="280" height="51"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="Nuf-8i-2pP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <state key="normal" title="Gift Card （Christmas Special Edition）">
+                                    <color key="titleColor" name="barTintColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPh-C7-qNX">
+                                <rect key="frame" x="14" y="184" width="280" height="51"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="VqC-Li-BMc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <state key="normal" title="Gift Card （New Year Edition）">
+                                    <color key="titleColor" name="barTintColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SnR-6a-3PT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Oic-9n-jlh" firstAttribute="top" secondItem="SnR-6a-3PT" secondAttribute="top" constant="30" id="DkX-dX-Opq"/>
+                            <constraint firstItem="Oic-9n-jlh" firstAttribute="leading" secondItem="SnR-6a-3PT" secondAttribute="leading" constant="10" id="FBD-Ds-xJE"/>
+                            <constraint firstItem="LPh-C7-qNX" firstAttribute="top" secondItem="i0K-xq-71e" secondAttribute="bottom" constant="16" id="L17-jk-kFL"/>
+                            <constraint firstItem="i0K-xq-71e" firstAttribute="top" secondItem="Oic-9n-jlh" secondAttribute="bottom" constant="13.5" id="L2H-h0-VJA"/>
+                            <constraint firstItem="LPh-C7-qNX" firstAttribute="width" secondItem="i0K-xq-71e" secondAttribute="width" id="Mby-8X-6He"/>
+                            <constraint firstItem="LPh-C7-qNX" firstAttribute="leading" secondItem="SnR-6a-3PT" secondAttribute="leading" constant="14" id="OGl-sK-f8f"/>
+                            <constraint firstItem="i0K-xq-71e" firstAttribute="leading" secondItem="SnR-6a-3PT" secondAttribute="leading" constant="13" id="kBk-4B-5Or"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Yev-jT-cfK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iLU-S7-f7d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-839.13043478260875" y="-960.26785714285711"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="le7-59-ie7">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="9ZD-8T-Lcx" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dVl-As-di0">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vmu-Ey-klG" kind="relationship" relationship="rootViewController" id="t5f-B9-VfR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nQb-JZ-Em3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1974" y="-1100"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Logo" width="1024" height="1024"/>
@@ -914,6 +984,9 @@ Article 5: All gift cards in this app are protected by an open source agreement,
         <namedColor name="WoodGreen">
             <color red="0.11400000005960464" green="0.27500000596046448" blue="0.25099998712539673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <namedColor name="barTintColor">
+            <color red="0.11299999803304672" green="0.19900000095367432" blue="0.25900000333786011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="tintColor">
             <color red="0.11299999803304672" green="0.19900000095367432" blue="0.25900000333786011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
@@ -931,6 +1004,9 @@ Article 5: All gift cards in this app are protected by an open source agreement,
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
