@@ -8,4 +8,8 @@ target 'GiftCard' do
   # Pods for GiftCard
   pod 'SDCycleScrollView'
   pod 'IQKeyboardManager'
+  pod 'Masonry'
+  pod 'AFNetworking'
+
+
 end

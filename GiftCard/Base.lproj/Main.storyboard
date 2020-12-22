@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OXl-AE-fMI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9ZD-8T-Lcx">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -10,6 +10,43 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Gift New YearVC-->
+        <scene sceneID="Q6Z-hN-XfO">
+            <objects>
+                <viewController id="u3f-9T-UY8" customClass="GiftNewYearVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f8v-xu-x9j">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="be1-6G-Jar">
+                                <rect key="frame" x="350" y="761" width="44" height="44"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="WQD-Yr-Qic"/>
+                                    <constraint firstAttribute="height" constant="44" id="pUL-Cr-K8m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="26"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" name="tintColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backHander:" destination="u3f-9T-UY8" eventType="touchUpInside" id="wsf-Kw-uUE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="snl-eN-P70"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="snl-eN-P70" firstAttribute="bottom" secondItem="be1-6G-Jar" secondAttribute="bottom" constant="57" id="JxS-2E-0np"/>
+                            <constraint firstItem="snl-eN-P70" firstAttribute="trailing" secondItem="be1-6G-Jar" secondAttribute="trailing" constant="20" id="sEe-Sf-toh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="D05-Qe-pWb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Rv-ao-1ru" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1483" y="-384"/>
+        </scene>
         <!--Home View Controller-->
         <scene sceneID="blo-Rd-zbH">
             <objects>
@@ -562,6 +599,19 @@
                                     <outletCollection property="gestureRecognizers" destination="N5Y-ue-zD6" appends="YES" id="F55-rJ-VvL"/>
                                 </connections>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bz-gn-OR5">
+                                <rect key="frame" x="354" y="782" width="40" height="40"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="rNa-c8-TBg"/>
+                                    <constraint firstAttribute="width" constant="40" id="vM1-XO-gHO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="26"/>
+                                <state key="normal" title="X"/>
+                                <connections>
+                                    <action selector="backHomeHander:" destination="OXl-AE-fMI" eventType="touchUpInside" id="xIH-pt-8Dc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CZY-Kz-pDl"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -584,6 +634,8 @@
                             <constraint firstItem="xqe-d4-wdl" firstAttribute="top" secondItem="gPX-2N-b6u" secondAttribute="top" id="e1v-by-HmV"/>
                             <constraint firstItem="h1B-Zy-URK" firstAttribute="leading" secondItem="CZY-Kz-pDl" secondAttribute="leading" id="ex6-sF-FMf"/>
                             <constraint firstItem="kBU-1q-4jf" firstAttribute="leading" secondItem="CZY-Kz-pDl" secondAttribute="leading" id="jBz-28-bQP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4bz-gn-OR5" secondAttribute="trailing" id="jp1-Tl-cfe"/>
+                            <constraint firstItem="h1B-Zy-URK" firstAttribute="top" secondItem="4bz-gn-OR5" secondAttribute="bottom" id="kiM-Ej-NyU"/>
                             <constraint firstItem="3M5-2E-Tyd" firstAttribute="centerX" secondItem="gPX-2N-b6u" secondAttribute="centerX" id="klO-23-je3"/>
                             <constraint firstAttribute="bottom" secondItem="kBU-1q-4jf" secondAttribute="bottom" id="mnw-da-m6o"/>
                             <constraint firstItem="xqe-d4-wdl" firstAttribute="leading" secondItem="gPX-2N-b6u" secondAttribute="leading" id="mxG-tY-pIw"/>
@@ -593,6 +645,7 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="D3g-H7-grv"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
@@ -601,6 +654,7 @@
                         <outlet property="cardOrignalView" destination="xqe-d4-wdl" id="xld-IM-VyV"/>
                         <outlet property="cardView" destination="3M5-2E-Tyd" id="76a-xG-jPA"/>
                         <outlet property="chooseView" destination="Ura-xC-xVg" id="G0x-hJ-Lv6"/>
+                        <outlet property="closeBtn" destination="4bz-gn-OR5" id="c0b-GK-PC7"/>
                         <outlet property="editorGreetingView" destination="8HN-oy-7kr" id="4IZ-9a-cz0"/>
                         <outlet property="giftImage" destination="aiT-P3-4UR" id="ZOc-Rn-XOu"/>
                         <outlet property="giftImageSuperView" destination="Khr-8U-ZvG" id="oCs-2G-N9E"/>
@@ -628,7 +682,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="339" y="-975"/>
+            <point key="canvasLocation" x="1029" y="-1195"/>
         </scene>
         <!--Statement-->
         <scene sceneID="ia8-m7-5Jg">
@@ -664,14 +718,14 @@ Article 5: All gift cards in this app are protected by an open source agreement,
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f8s-iu-LpD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1214" y="-999"/>
+            <point key="canvasLocation" x="1859" y="-1672"/>
         </scene>
         <!--Setting-->
         <scene sceneID="SAm-vG-oLb">
             <objects>
                 <viewController id="wKN-in-r6L" customClass="SetingViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rOm-dJ-Z3g">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="idG-N0-qeH">
@@ -870,7 +924,7 @@ Article 5: All gift cards in this app are protected by an open source agreement,
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rjA-6E-Yer" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="318.84057971014494" y="-213.61607142857142"/>
+            <point key="canvasLocation" x="1300" y="-151"/>
         </scene>
         <!--Setting-->
         <scene sceneID="cby-fT-858">
@@ -893,7 +947,7 @@ Article 5: All gift cards in this app are protected by an open source agreement,
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G26-r9-RJ0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-426" y="-214"/>
+            <point key="canvasLocation" x="2654" y="-850"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9WE-xH-2Cf">
@@ -919,6 +973,9 @@ Article 5: All gift cards in this app are protected by an open source agreement,
                                 <state key="normal" title="Gift Card （Christmas Special Edition）">
                                     <color key="titleColor" name="barTintColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="OXl-AE-fMI" kind="push" id="VaH-EL-CfV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPh-C7-qNX">
                                 <rect key="frame" x="14" y="184" width="280" height="51"/>
@@ -930,6 +987,9 @@ Article 5: All gift cards in this app are protected by an open source agreement,
                                 <state key="normal" title="Gift Card （New Year Edition）">
                                     <color key="titleColor" name="barTintColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="u3f-9T-UY8" kind="push" id="J2Y-iD-VAH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SnR-6a-3PT"/>
@@ -948,7 +1008,7 @@ Article 5: All gift cards in this app are protected by an open source agreement,
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iLU-S7-f7d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-839.13043478260875" y="-960.26785714285711"/>
+            <point key="canvasLocation" x="-93" y="-1123"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="le7-59-ie7">
@@ -963,7 +1023,7 @@ Article 5: All gift cards in this app are protected by an open source agreement,
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nQb-JZ-Em3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1974" y="-1100"/>
+            <point key="canvasLocation" x="-900" y="-1124"/>
         </scene>
     </scenes>
     <resources>

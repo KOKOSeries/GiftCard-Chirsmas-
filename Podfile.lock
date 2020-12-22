@@ -1,5 +1,21 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
   - IQKeyboardManager (6.5.6)
+  - Masonry (1.1.0)
   - SDCycleScrollView (1.82):
     - SDWebImage (>= 5.0.0)
   - SDWebImage (5.10.0):
@@ -7,20 +23,26 @@ PODS:
   - SDWebImage/Core (5.10.0)
 
 DEPENDENCIES:
+  - AFNetworking
   - IQKeyboardManager
+  - Masonry
   - SDCycleScrollView
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - IQKeyboardManager
+    - Masonry
     - SDCycleScrollView
     - SDWebImage
 
 SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
   SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
 
-PODFILE CHECKSUM: d73486855da178ad5835931ccea6389b617d2435
+PODFILE CHECKSUM: 51fa6826afe2acd23eba7015c369ddcbb570c2f2
 
 COCOAPODS: 1.10.0

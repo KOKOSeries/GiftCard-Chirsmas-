@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B77939A7D01D3398B48555A8 /* Pods_GiftCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6700ECF5EC960903BDDB9F /* Pods_GiftCard.framework */; };
+		E3C5DAE42592ABEC003E018F /* GiftNewYearVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C5DAE32592ABEC003E018F /* GiftNewYearVC.m */; };
+		E3C5DAE82592AD29003E018F /* GCGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C5DAE72592AD29003E018F /* GCGuide.m */; };
+		E3C5DAEC2592AD81003E018F /* GCGuideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C5DAEB2592AD81003E018F /* GCGuideVC.m */; };
 		E3D7C2AE258C620500035613 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C2AD258C620500035613 /* AppDelegate.m */; };
 		E3D7C2B1258C620500035613 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C2B0258C620500035613 /* SceneDelegate.m */; };
 		E3D7C2B7258C620500035613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D7C2B5258C620500035613 /* Main.storyboard */; };
@@ -34,6 +37,12 @@
 		BA6AD4291A10D55007DB39AE /* Pods-GiftCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftCard.release.xcconfig"; path = "Target Support Files/Pods-GiftCard/Pods-GiftCard.release.xcconfig"; sourceTree = "<group>"; };
 		BC6700ECF5EC960903BDDB9F /* Pods_GiftCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiftCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3566966258EF5D700CF433E /* GiftCard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GiftCard.entitlements; sourceTree = "<group>"; };
+		E3C5DAE22592ABEC003E018F /* GiftNewYearVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiftNewYearVC.h; sourceTree = "<group>"; };
+		E3C5DAE32592ABEC003E018F /* GiftNewYearVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiftNewYearVC.m; sourceTree = "<group>"; };
+		E3C5DAE62592AD29003E018F /* GCGuide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCGuide.h; sourceTree = "<group>"; };
+		E3C5DAE72592AD29003E018F /* GCGuide.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCGuide.m; sourceTree = "<group>"; };
+		E3C5DAEA2592AD81003E018F /* GCGuideVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCGuideVC.h; sourceTree = "<group>"; };
+		E3C5DAEB2592AD81003E018F /* GCGuideVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCGuideVC.m; sourceTree = "<group>"; };
 		E3D7C2A9258C620500035613 /* GiftCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D7C2AC258C620500035613 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3D7C2AD258C620500035613 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,8 +109,34 @@
 				E3D7C2E6258C646500035613 /* YYFPSLabel.m */,
 				E3D7C2E9258C646600035613 /* YYWeakProxy.h */,
 				E3D7C2E7258C646500035613 /* YYWeakProxy.m */,
+				E3C5DAE62592AD29003E018F /* GCGuide.h */,
+				E3C5DAE72592AD29003E018F /* GCGuide.m */,
+				E3C5DAEA2592AD81003E018F /* GCGuideVC.h */,
+				E3C5DAEB2592AD81003E018F /* GCGuideVC.m */,
 			);
 			path = ThrityPart;
+			sourceTree = "<group>";
+		};
+		E3C5DADF2592A692003E018F /* GiftNewYear */ = {
+			isa = PBXGroup;
+			children = (
+				E3C5DAE22592ABEC003E018F /* GiftNewYearVC.h */,
+				E3C5DAE32592ABEC003E018F /* GiftNewYearVC.m */,
+			);
+			path = GiftNewYear;
+			sourceTree = "<group>";
+		};
+		E3C5DAE02592A6B0003E018F /* GiftChrismas */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7C2D8258C645300035613 /* ShareViewController.h */,
+				E3D7C2D4258C645300035613 /* ShareViewController.m */,
+				E3D7C2D9258C645300035613 /* SViewController.h */,
+				E3D7C2DA258C645300035613 /* SViewController.m */,
+				E3D7C2DD258C645300035613 /* HomeViewController.h */,
+				E3D7C2D6258C645300035613 /* HomeViewController.m */,
+			);
+			path = GiftChrismas;
 			sourceTree = "<group>";
 		};
 		E3D7C2A0258C620500035613 = {
@@ -130,20 +165,16 @@
 				E3D7C2AD258C620500035613 /* AppDelegate.m */,
 				E3D7C2AF258C620500035613 /* SceneDelegate.h */,
 				E3D7C2B0258C620500035613 /* SceneDelegate.m */,
-				E3C5DADB25926784003E018F /* ThrityPart */,
-				E3D7C2ED258C647300035613 /* giftList.plist */,
-				E3D7C2DD258C645300035613 /* HomeViewController.h */,
-				E3D7C2D6258C645300035613 /* HomeViewController.m */,
 				E3D7C2D5258C645300035613 /* opensourceSDKdata.plist */,
 				E3D7C2DC258C645300035613 /* OpensourceSDKVC.h */,
 				E3D7C2D3258C645300035613 /* OpensourceSDKVC.m */,
 				E3D7C2D2258C645300035613 /* OpensourceSDKVC.xib */,
 				E3D7C2D7258C645300035613 /* SetingViewController.h */,
 				E3D7C2DB258C645300035613 /* SetingViewController.m */,
-				E3D7C2D8258C645300035613 /* ShareViewController.h */,
-				E3D7C2D4258C645300035613 /* ShareViewController.m */,
-				E3D7C2D9258C645300035613 /* SViewController.h */,
-				E3D7C2DA258C645300035613 /* SViewController.m */,
+				E3C5DAE02592A6B0003E018F /* GiftChrismas */,
+				E3C5DADF2592A692003E018F /* GiftNewYear */,
+				E3C5DADB25926784003E018F /* ThrityPart */,
+				E3D7C2ED258C647300035613 /* giftList.plist */,
 				E3D7C2B5258C620500035613 /* Main.storyboard */,
 				E3D7C2BB258C620700035613 /* Assets.xcassets */,
 				E3D7C2BD258C620700035613 /* LaunchScreen.storyboard */,
@@ -278,14 +309,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3C5DAE42592ABEC003E018F /* GiftNewYearVC.m in Sources */,
 				E3D7C2E3258C645300035613 /* SViewController.m in Sources */,
 				E3D7C2C2258C620700035613 /* main.m in Sources */,
 				E3D7C2E4258C645300035613 /* SetingViewController.m in Sources */,
 				E3D7C2BA258C620500035613 /* GiftCard.xcdatamodeld in Sources */,
 				E3D7C2E0258C645300035613 /* ShareViewController.m in Sources */,
 				E3D7C2CC258C63F800035613 /* KxMenu.m in Sources */,
+				E3C5DAEC2592AD81003E018F /* GCGuideVC.m in Sources */,
 				E3D7C2EA258C646600035613 /* YYFPSLabel.m in Sources */,
 				E3D7C2EB258C646600035613 /* YYWeakProxy.m in Sources */,
+				E3C5DAE82592AD29003E018F /* GCGuide.m in Sources */,
 				E3D7C2DF258C645300035613 /* OpensourceSDKVC.m in Sources */,
 				E3D7C2E2258C645300035613 /* HomeViewController.m in Sources */,
 				E3D7C2AE258C620500035613 /* AppDelegate.m in Sources */,
@@ -439,7 +473,7 @@
 				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = VC2K439GRZ;
 				INFOPLIST_FILE = GiftCard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +496,7 @@
 				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = VC2K439GRZ;
 				INFOPLIST_FILE = GiftCard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

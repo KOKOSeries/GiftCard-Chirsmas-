@@ -7,18 +7,41 @@
 
 #import "SceneDelegate.h"
 #import "AppDelegate.h"
-
+#import "GCGuide.h"
 @interface SceneDelegate ()
 
 @end
 
 @implementation SceneDelegate
-
+static SceneDelegate *static_sceneDelegate = nil;
++(instancetype)sharedInstance{
+    @synchronized(self){
+        if (!static_sceneDelegate) {
+            static_sceneDelegate = SceneDelegate.new;
+        }
+    }return static_sceneDelegate;
+}
+-(instancetype)init{
+    if (self = [super init]) {
+        static_sceneDelegate = self;
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(noti1:)
+                                                     name:UISceneWillConnectNotification
+                                                   object:nil];
+    }return self;
+}
+-(void)noti1:(NSNotification *)notification{
+    self.windowScene = notification.object;
+}
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    self.windowScene = (UIWindowScene *)scene;
+    GCGuide *guide = [GCGuide share];
+    [guide scene:self.windowScene];
+    self.window.alpha = 1;
 }
 
 

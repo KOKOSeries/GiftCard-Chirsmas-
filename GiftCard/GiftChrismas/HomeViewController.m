@@ -53,6 +53,7 @@
 
 @property (weak, nonatomic) IBOutlet UIView *cardView;
 @property (weak, nonatomic) IBOutlet UIImageView *cardImage;
+@property (weak, nonatomic) IBOutlet UIButton *closeBtn;
 
 @end
 
@@ -671,6 +672,9 @@
 - (NSArray<UIActivity *> *)safariViewController:(SFSafariViewController *)controller activityItemsForURL:(NSURL *)URL title:(NSString *)title{
     
     return @[];
+}
+- (IBAction)backHomeHander:(UIButton *)sender {
+    [self.navigationController popViewControllerAnimated:YES];
 }
 @end
 
