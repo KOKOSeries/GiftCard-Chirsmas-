@@ -1,2 +1,4 @@
 # GiftCard-Chirsmas-
-![image](https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png)
+##  First version pre
+
+![image](https://github.com/KOKOSeries/GiftCard-Chirsmas-/tree/main/Fisrt%20Vesion%20%20Browse/Screen Shot 2020-12-22 at 12.03.05 PM.png)
