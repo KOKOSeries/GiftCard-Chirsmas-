@@ -1,11 +1,57 @@
 # GiftCard-Chirsmas-
 ##  First version pre
-<div align="center">
-	<img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.06.55%20PM.png" width="100",height="300">
-</div>
+
 
 * 首页
 
+
+
+<div align="center">
+<img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.03.05%20PM.png" width="100",height="300">
+</div>
+
+
+<div align="center">
+<img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.03.34%20PM.png" width="100",height="300">
+</div>
+
+
+<div align="center">
+<img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.03.43%20PM.png" width="100",height="300">
+</div>
+
+
+<div align="center">
+<img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.03.05%20PM.png" width="100",height="300">
+</div>
+
+
+<div align="center">
+<img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.04.00%20PM.png" width="100",height="300">
+</div>
+
+<div align="center">
+<img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.04.17%20PM.png" width="100",height="300">
+</div>
+
+<div align="center">
+<img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.04.29%20PM.png" width="100",height="300">
+</div>
+
+<div align="center">
+<img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.04.29%20PM.png" width="100",height="300">
+</div>
+
+<div align="center">
+<img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.06.08%20PM.png" width="100",height="300">
+</div>
+<div align="center">
+<img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.06.21%20PM.png
+" width="100",height="300">
+</div>
+<div align="center">
+<img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.06.55%20PM.pn" width="100",height="300">
+</div>
 ![1image](https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.03.05%20PM.png)
 ![2image](https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.03.34%20PM.png)
 ![3image](https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.03.43%20PM.png)
