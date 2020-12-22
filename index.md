@@ -11,7 +11,7 @@ You can pick up your favorite gifts and save them for your good friends.
 1. create mian app  
 2. modyfy color 
 3. update gifts
-4. 优化版面
+4. 
 ```
 ### Pricacy Policy
 ```markdown
