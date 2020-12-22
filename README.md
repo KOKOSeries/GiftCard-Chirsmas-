@@ -1,7 +1,7 @@
 # GiftCard-Chirsmas-
 ##  First version pre
 <div align="center">
-	<img src="./blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.03.05%20PM.png" alt="Editor" width="100",height="300">
+	<img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.06.55%20PM.png" width="100",height="300">
 </div>
 
 * 首页
