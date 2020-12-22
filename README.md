@@ -52,6 +52,18 @@
 <div align="center">
 <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.06.55%20PM.pn" width="100",height="300">
 </div>
+
+<center class="half">
+    <img src="图片链接" width="200"/><img src="图片链接" width="200"/><img src="图片链接" width="200"/>
+  
+  <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.03.05%20PM.png" width="200"/>
+  <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.03.34%20PM.png" width="200"/>
+ <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.03.43%20PM.png" width="200"/>
+ <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.03.51%20PM.png" width="200"/>
+ <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.04.00%20PM.png" width="200"/>
+ <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.04.17%20PM.png" width="200"/>
+ <img src="https://github.com/KOKOSeries/GiftCard-Chir <img src="smas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.04.29%20PM.png" width="200"/>
+</center>
 ![1image](https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.03.05%20PM.png)
 ![2image](https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.03.34%20PM.png)
 ![3image](https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Fisrt%20Vesion%20%20Browse/Screen%20Shot%202020-12-22%20at%2012.03.43%20PM.png)
