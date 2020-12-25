@@ -11,7 +11,9 @@
 |||||
 |--|--|--|--|
 | <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/1.png" width="200"/> | <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/2.png" width="200"/> | <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/3.png" width="200"/> | <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/4.png" width="200"/> |
-| <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/5.png" width="200"/> | <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/6.png" width="200"/> | <img src="" width="200"/> | <img src="" width="200"/> |
+| <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/5.png" width="200"/> | <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/6.png" width="200"/> | <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/7.png" width="200"/> | <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/8.png" width="200"/> |
+| <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/9.png" width="200"/> | <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/10.png" width="200"/> | <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/11.png" width="200"/> | <img src="" width="200"/> |
+
 
 ## Version 3 : In design ❎
 |||||
