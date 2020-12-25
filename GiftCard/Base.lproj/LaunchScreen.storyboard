@@ -15,16 +15,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lc" translatesAutoresizingMaskIntoConstraints="NO" id="RRl-L2-1fK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gift2.0logo" translatesAutoresizingMaskIntoConstraints="NO" id="RRl-L2-1fK">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gift 2.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIy-Pd-jXK">
+                                <rect key="frame" x="179" y="821" width="56" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Celebrate New Year's Day 2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnI-T5-1fl">
+                                <rect key="frame" x="87" y="337.5" width="240" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dream ｜ Happy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4t-Va-0tU">
+                                <rect key="frame" x="154" y="378.5" width="126" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="mnI-T5-1fl" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1cv-Kb-sjV"/>
                             <constraint firstItem="RRl-L2-1fK" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="BMK-mZ-7Jy"/>
+                            <constraint firstItem="DIy-Pd-jXK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Cap-ft-4SY"/>
                             <constraint firstAttribute="bottom" secondItem="RRl-L2-1fK" secondAttribute="bottom" id="Pst-My-0Cp"/>
+                            <constraint firstItem="M4t-Va-0tU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="10" id="Upc-Wy-ee3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DIy-Pd-jXK" secondAttribute="bottom" constant="20" id="WuW-dN-dlb"/>
+                            <constraint firstItem="M4t-Va-0tU" firstAttribute="top" secondItem="mnI-T5-1fl" secondAttribute="bottom" constant="20" id="iCd-AM-AyK"/>
                             <constraint firstAttribute="trailing" secondItem="RRl-L2-1fK" secondAttribute="trailing" id="jAm-bS-jf0"/>
+                            <constraint firstItem="mnI-T5-1fl" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-100" id="jTx-LA-x6x"/>
                             <constraint firstItem="RRl-L2-1fK" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="q1Y-uy-cEj"/>
                         </constraints>
                     </view>
@@ -35,6 +60,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Lc" width="375" height="696"/>
+        <image name="Gift2.0logo" width="1024" height="1024"/>
     </resources>
 </document>

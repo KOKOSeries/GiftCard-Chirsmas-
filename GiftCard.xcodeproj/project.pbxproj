@@ -11,6 +11,12 @@
 		E3C5DAE42592ABEC003E018F /* GiftNewYearVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C5DAE32592ABEC003E018F /* GiftNewYearVC.m */; };
 		E3C5DAE82592AD29003E018F /* GCGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C5DAE72592AD29003E018F /* GCGuide.m */; };
 		E3C5DAEC2592AD81003E018F /* GCGuideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C5DAEB2592AD81003E018F /* GCGuideVC.m */; };
+		E3C5DAFF2592CA6E003E018F /* dreambigclock.png in Resources */ = {isa = PBXBuildFile; fileRef = E3C5DAFC2592CA6E003E018F /* dreambigclock.png */; };
+		E3C5DB002592CA6E003E018F /* Forgetworryfruit.png in Resources */ = {isa = PBXBuildFile; fileRef = E3C5DAFD2592CA6E003E018F /* Forgetworryfruit.png */; };
+		E3C5DB012592CA6E003E018F /* wishingStone_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = E3C5DAFE2592CA6E003E018F /* wishingStone_banner.png */; };
+		E3C5DB062592E427003E018F /* StoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C5DB052592E427003E018F /* StoneViewController.m */; };
+		E3C5DB0A2592E439003E018F /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C5DB092592E439003E018F /* ClockViewController.m */; };
+		E3C5DB0E2592E44A003E018F /* FriutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C5DB0D2592E44A003E018F /* FriutViewController.m */; };
 		E3D7C2AE258C620500035613 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C2AD258C620500035613 /* AppDelegate.m */; };
 		E3D7C2B1258C620500035613 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7C2B0258C620500035613 /* SceneDelegate.m */; };
 		E3D7C2B7258C620500035613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D7C2B5258C620500035613 /* Main.storyboard */; };
@@ -43,6 +49,15 @@
 		E3C5DAE72592AD29003E018F /* GCGuide.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCGuide.m; sourceTree = "<group>"; };
 		E3C5DAEA2592AD81003E018F /* GCGuideVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCGuideVC.h; sourceTree = "<group>"; };
 		E3C5DAEB2592AD81003E018F /* GCGuideVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCGuideVC.m; sourceTree = "<group>"; };
+		E3C5DAFC2592CA6E003E018F /* dreambigclock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dreambigclock.png; sourceTree = "<group>"; };
+		E3C5DAFD2592CA6E003E018F /* Forgetworryfruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Forgetworryfruit.png; sourceTree = "<group>"; };
+		E3C5DAFE2592CA6E003E018F /* wishingStone_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wishingStone_banner.png; sourceTree = "<group>"; };
+		E3C5DB042592E427003E018F /* StoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoneViewController.h; sourceTree = "<group>"; };
+		E3C5DB052592E427003E018F /* StoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoneViewController.m; sourceTree = "<group>"; };
+		E3C5DB082592E439003E018F /* ClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
+		E3C5DB092592E439003E018F /* ClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
+		E3C5DB0C2592E44A003E018F /* FriutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriutViewController.h; sourceTree = "<group>"; };
+		E3C5DB0D2592E44A003E018F /* FriutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriutViewController.m; sourceTree = "<group>"; };
 		E3D7C2A9258C620500035613 /* GiftCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D7C2AC258C620500035613 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3D7C2AD258C620500035613 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +120,9 @@
 				E3D7C2CB258C63F800035613 /* KxMenu.m */,
 				E3D7C2CE258C640900035613 /* WMDragView.h */,
 				E3D7C2CF258C640900035613 /* WMDragView.m */,
+				E3C5DAFD2592CA6E003E018F /* Forgetworryfruit.png */,
+				E3C5DAFC2592CA6E003E018F /* dreambigclock.png */,
+				E3C5DAFE2592CA6E003E018F /* wishingStone_banner.png */,
 				E3D7C2E8258C646600035613 /* YYFPSLabel.h */,
 				E3D7C2E6258C646500035613 /* YYFPSLabel.m */,
 				E3D7C2E9258C646600035613 /* YYWeakProxy.h */,
@@ -122,6 +140,12 @@
 			children = (
 				E3C5DAE22592ABEC003E018F /* GiftNewYearVC.h */,
 				E3C5DAE32592ABEC003E018F /* GiftNewYearVC.m */,
+				E3C5DB042592E427003E018F /* StoneViewController.h */,
+				E3C5DB052592E427003E018F /* StoneViewController.m */,
+				E3C5DB082592E439003E018F /* ClockViewController.h */,
+				E3C5DB092592E439003E018F /* ClockViewController.m */,
+				E3C5DB0C2592E44A003E018F /* FriutViewController.h */,
+				E3C5DB0D2592E44A003E018F /* FriutViewController.m */,
 			);
 			path = GiftNewYear;
 			sourceTree = "<group>";
@@ -251,9 +275,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3C5DB012592CA6E003E018F /* wishingStone_banner.png in Resources */,
 				E3D7C2BF258C620700035613 /* LaunchScreen.storyboard in Resources */,
 				E3D7C2BC258C620700035613 /* Assets.xcassets in Resources */,
+				E3C5DAFF2592CA6E003E018F /* dreambigclock.png in Resources */,
 				E3D7C2E1258C645300035613 /* opensourceSDKdata.plist in Resources */,
+				E3C5DB002592CA6E003E018F /* Forgetworryfruit.png in Resources */,
 				E3D7C2DE258C645300035613 /* OpensourceSDKVC.xib in Resources */,
 				E3D7C2EE258C647300035613 /* giftList.plist in Resources */,
 				E3D7C2B7258C620500035613 /* Main.storyboard in Resources */,
@@ -312,13 +339,16 @@
 				E3C5DAE42592ABEC003E018F /* GiftNewYearVC.m in Sources */,
 				E3D7C2E3258C645300035613 /* SViewController.m in Sources */,
 				E3D7C2C2258C620700035613 /* main.m in Sources */,
+				E3C5DB0A2592E439003E018F /* ClockViewController.m in Sources */,
 				E3D7C2E4258C645300035613 /* SetingViewController.m in Sources */,
 				E3D7C2BA258C620500035613 /* GiftCard.xcdatamodeld in Sources */,
 				E3D7C2E0258C645300035613 /* ShareViewController.m in Sources */,
 				E3D7C2CC258C63F800035613 /* KxMenu.m in Sources */,
 				E3C5DAEC2592AD81003E018F /* GCGuideVC.m in Sources */,
 				E3D7C2EA258C646600035613 /* YYFPSLabel.m in Sources */,
+				E3C5DB0E2592E44A003E018F /* FriutViewController.m in Sources */,
 				E3D7C2EB258C646600035613 /* YYWeakProxy.m in Sources */,
+				E3C5DB062592E427003E018F /* StoneViewController.m in Sources */,
 				E3C5DAE82592AD29003E018F /* GCGuide.m in Sources */,
 				E3D7C2DF258C645300035613 /* OpensourceSDKVC.m in Sources */,
 				E3D7C2E2258C645300035613 /* HomeViewController.m in Sources */,
@@ -470,7 +500,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GiftCard/GiftCard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VC2K439GRZ;
 				INFOPLIST_FILE = GiftCard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -478,6 +508,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kok.giftcard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
@@ -493,7 +524,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GiftCard/GiftCard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VC2K439GRZ;
 				INFOPLIST_FILE = GiftCard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -501,6 +532,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kok.giftcard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
