@@ -10,8 +10,8 @@
 ## Version 2 : We are being prepared ❎
 |||||
 |--|--|--|--|
-| <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/1.png" width="200"/> | <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/2.png" width="200"/> | <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/3.png" width="200"/> | <img src="" width="200"/> |
-| <img src="" width="200"/> | <img src="" width="200"/> | <img src="" width="200"/> | <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/4.png" width="200"/> |
+| <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/1.png" width="200"/> | <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/2.png" width="200"/> | <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/3.png" width="200"/> | <img src="https://github.com/KOKOSeries/GiftCard-Chirsmas-/blob/main/Second%20Version%20Browse/4.png" width="200"/> |
+| <img src="" width="200"/> | <img src="" width="200"/> | <img src="" width="200"/> | <img src="" width="200"/> |
 
 ## Version 3 : In design ❎
 |||||
