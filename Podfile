@@ -10,6 +10,6 @@ target 'GiftCard' do
   pod 'IQKeyboardManager'
   pod 'Masonry'
   pod 'AFNetworking'
-
+  pod 'MJExtension'
 
 end

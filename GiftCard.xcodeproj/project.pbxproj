@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B77939A7D01D3398B48555A8 /* Pods_GiftCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6700ECF5EC960903BDDB9F /* Pods_GiftCard.framework */; };
+		E371129725969E6F00B34E7E /* WriteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E371129525969E6F00B34E7E /* WriteVC.m */; };
+		E371129825969E6F00B34E7E /* WriteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E371129625969E6F00B34E7E /* WriteVC.xib */; };
 		E3C5DAE42592ABEC003E018F /* GiftNewYearVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C5DAE32592ABEC003E018F /* GiftNewYearVC.m */; };
 		E3C5DAE82592AD29003E018F /* GCGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C5DAE72592AD29003E018F /* GCGuide.m */; };
 		E3C5DAEC2592AD81003E018F /* GCGuideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C5DAEB2592AD81003E018F /* GCGuideVC.m */; };
@@ -43,6 +45,9 @@
 		BA6AD4291A10D55007DB39AE /* Pods-GiftCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftCard.release.xcconfig"; path = "Target Support Files/Pods-GiftCard/Pods-GiftCard.release.xcconfig"; sourceTree = "<group>"; };
 		BC6700ECF5EC960903BDDB9F /* Pods_GiftCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiftCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3566966258EF5D700CF433E /* GiftCard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GiftCard.entitlements; sourceTree = "<group>"; };
+		E371129425969E6F00B34E7E /* WriteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WriteVC.h; sourceTree = "<group>"; };
+		E371129525969E6F00B34E7E /* WriteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WriteVC.m; sourceTree = "<group>"; };
+		E371129625969E6F00B34E7E /* WriteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WriteVC.xib; sourceTree = "<group>"; };
 		E3C5DAE22592ABEC003E018F /* GiftNewYearVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiftNewYearVC.h; sourceTree = "<group>"; };
 		E3C5DAE32592ABEC003E018F /* GiftNewYearVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiftNewYearVC.m; sourceTree = "<group>"; };
 		E3C5DAE62592AD29003E018F /* GCGuide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCGuide.h; sourceTree = "<group>"; };
@@ -146,6 +151,9 @@
 				E3C5DB092592E439003E018F /* ClockViewController.m */,
 				E3C5DB0C2592E44A003E018F /* FriutViewController.h */,
 				E3C5DB0D2592E44A003E018F /* FriutViewController.m */,
+				E371129425969E6F00B34E7E /* WriteVC.h */,
+				E371129525969E6F00B34E7E /* WriteVC.m */,
+				E371129625969E6F00B34E7E /* WriteVC.xib */,
 			);
 			path = GiftNewYear;
 			sourceTree = "<group>";
@@ -283,6 +291,7 @@
 				E3C5DB002592CA6E003E018F /* Forgetworryfruit.png in Resources */,
 				E3D7C2DE258C645300035613 /* OpensourceSDKVC.xib in Resources */,
 				E3D7C2EE258C647300035613 /* giftList.plist in Resources */,
+				E371129825969E6F00B34E7E /* WriteVC.xib in Resources */,
 				E3D7C2B7258C620500035613 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E371129725969E6F00B34E7E /* WriteVC.m in Sources */,
 				E3C5DAE42592ABEC003E018F /* GiftNewYearVC.m in Sources */,
 				E3D7C2E3258C645300035613 /* SViewController.m in Sources */,
 				E3D7C2C2258C620700035613 /* main.m in Sources */,

@@ -5,31 +5,99 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "641F7C88-35CF-417C-B48E-36DCB2E4F327"
+            uuid = "855CF41D-C7C9-4457-8D23-C983C52FB04E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            breakpointStackSelectionBehavior = "1"
-            scope = "1"
-            stopOnStyle = "0">
+            filePath = "GiftCard/GiftNewYear/WriteVC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "-network"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "430FDFD1-5C23-4762-90F6-7DA0FDFCA74D"
+            uuid = "1FB827BE-DC17-4D9E-8BEA-D2C801A95212"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "GiftCard/HomeViewController.m"
+            filePath = "GiftCard/GiftNewYear/WriteVC.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "672"
-            endingLineNumber = "672"
-            landmarkName = "-safariViewController:activityItemsForURL:title:"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "-network"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "231AD071-1BF9-4C24-952F-F24817C13DBC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GiftCard/GiftNewYear/WriteVC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "-network"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBD789A0-3FE5-42E7-A7E4-F0B612660892"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GiftCard/GiftNewYear/WriteVC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "-network"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FBD789A0-3FE5-42E7-A7E4-F0B612660892 - 6a64efe4b04dca4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WriteVC network]"
+                  moduleName = "GiftCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kok/Downloads/code/iOS/dev/GiftCard2/GiftCard/GiftNewYear/WriteVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "853">
+               </Location>
+               <Location
+                  uuid = "FBD789A0-3FE5-42E7-A7E4-F0B612660892 - e6a670d7ee950426"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__18-[WriteVC network]_block_invoke"
+                  moduleName = "GiftCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kok/Downloads/code/iOS/dev/GiftCard2/GiftCard/GiftNewYear/WriteVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "106">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

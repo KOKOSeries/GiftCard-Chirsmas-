@@ -6,7 +6,7 @@
 //
 
 #import "StoneViewController.h"
-
+#import "WriteVC.h"
 @interface StoneViewController ()
 @property (weak, nonatomic) IBOutlet UIView *descView;
 
@@ -29,14 +29,16 @@
    self.descView.hidden = NO;
 }
 - (IBAction)usersDream:(UIButton *)sender {
-    UIAlertController *vc = [UIAlertController alertControllerWithTitle:@"Waiting for user feedback" message:@"Waiting for user feedback, the mailbox will receive the feedback, it will be sorted out and placed in the App, please wait" preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *action = [UIAlertAction actionWithTitle:@"ok" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        
-    }];
-    [vc addAction:action];
-    [self presentViewController:vc animated:YES completion:^{
-            
-    }];
+//    UIAlertController *vc = [UIAlertController alertControllerWithTitle:@"Waiting for user feedback" message:@"Waiting for user feedback, the mailbox will receive the feedback, it will be sorted out and placed in the App, please wait" preferredStyle:UIAlertControllerStyleAlert];
+//    UIAlertAction *action = [UIAlertAction actionWithTitle:@"ok" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+//
+//    }];
+//    [vc addAction:action];
+//    [self presentViewController:vc animated:YES completion:^{
+//
+//    }];
+    WriteVC *vc = [[WriteVC alloc]initWithNibName:@"WriteVC" bundle:nil];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

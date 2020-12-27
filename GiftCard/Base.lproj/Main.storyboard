@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9ZD-8T-Lcx">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -1191,7 +1190,7 @@ Article 5: All gift cards in this app are protected by an open source agreement,
                                         <constraints>
                                             <constraint firstAttribute="height" constant="180" id="nbe-oZ-wXl"/>
                                         </constraints>
-                                        <mutableString key="text">Desires, for everyone, are out of reach, but every holiday season, many people will make a wish. The wish is almost impossible to achieve, and what can be achieved is called a goal. I have planted many wishes, some of which were realized inadvertently, some have not yet been realized, and some are impossible to realize even before my death. In this regard, I have the joy of fulfilling my wish, and regret whether it has been fulfilled, and the pain and helplessness when it is impossible to fulfill my wish. But no matter what, I once had a wish, and these memories made me feel much better.</mutableString>
+                                        <string key="text">Desires, for everyone, are out of reach, but every holiday season, many people will make a wish. The wish is almost impossible to achieve, and what can be achieved is called a goal. I have planted many wishes, some of which were realized inadvertently, some have not yet been realized, and some are impossible to realize even before my death. In this regard, I have the joy of fulfilling my wish, and regret whether it has been fulfilled, and the pain and helplessness when it is impossible to fulfill my wish. But no matter what, I once had a wish, and these memories made me feel much better.</string>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1315,7 +1314,7 @@ Article 5: All gift cards in this app are protected by an open source agreement,
                                         <constraints>
                                             <constraint firstAttribute="height" constant="180" id="5Hv-LB-ZOZ"/>
                                         </constraints>
-                                        <mutableString key="text">There is always chasing dreams and chasing dreams in singing. But this is achievable. According to the plan, tireless hard work and hard work can be achieved. However, the years are so cruel. Many dreams of many people have not been realized, only a few people’s dreams have been realized</mutableString>
+                                        <string key="text">There is always chasing dreams and chasing dreams in singing. But this is achievable. According to the plan, tireless hard work and hard work can be achieved. However, the years are so cruel. Many dreams of many people have not been realized, only a few people’s dreams have been realized</string>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1525,7 +1524,7 @@ Article 5: All gift cards in this app are protected by an open source agreement,
                                         <constraints>
                                             <constraint firstAttribute="height" constant="180" id="tY6-Zw-zlb"/>
                                         </constraints>
-                                        <mutableString key="text">There are no fruits or medicines that make people forget their troubles，If there is, it is only temporary, and it does not completely make you forget your troubles.After experiencing so much, happiness, pain, frustration, hurt, contempt, betrayal, I understand that I can only face it with dare, there is no other way, let these become your experience, describe it to others like a story, or write him in Some online blogs.</mutableString>
+                                        <string key="text">There are no fruits or medicines that make people forget their troubles，If there is, it is only temporary, and it does not completely make you forget your troubles.After experiencing so much, happiness, pain, frustration, hurt, contempt, betrayal, I understand that I can only face it with dare, there is no other way, let these become your experience, describe it to others like a story, or write him in Some online blogs.</string>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1622,10 +1621,10 @@ Article 5: All gift cards in this app are protected by an open source agreement,
             <color red="0.11299999803304672" green="0.19900000095367432" blue="0.25900000333786011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="clock">
-            <color red="0.53333333333333333" green="0.92941176470588238" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.53299999237060547" green="0.92900002002716064" blue="0.74900001287460327" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="fruit">
-            <color red="0.54540902376174927" green="0.52075392007827759" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.54509803921568623" green="0.51764705882352946" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="stone">
             <color red="0.59215686274509804" green="0.40392156862745099" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
